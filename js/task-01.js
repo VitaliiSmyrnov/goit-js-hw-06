@@ -9,7 +9,7 @@ const categoriesItems = categoriesList.children;
 const categoriesItemsCount = categoriesItems.length;
 
 const categoriesFirstItem = categoriesList.firstElementChild;
-const categoriesSecondItem = categoriesFirstItem.nextElementSibling;
+const categoriesSecondItem = categoriesList.children[1];
 const categoriesLastItem = categoriesList.lastElementChild;
 
 const firstCategoryTitle = categoriesFirstItem.firstElementChild;
