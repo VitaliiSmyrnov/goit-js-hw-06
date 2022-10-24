@@ -17,12 +17,12 @@ const value = document.querySelector('#value');
 
 const handleDecrementButtonClick = () => {
   counterValue -= 1;
-  value.innerHTML = counterValue;
+  value.textContent = counterValue;
 };
 
 const handleIncrementButtonClick = () => {
   counterValue += 1;
-  value.innerHTML = counterValue;
+  value.textContent = counterValue;
 };
 
 decrementBtn.addEventListener('click', handleDecrementButtonClick);
