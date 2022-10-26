@@ -15,7 +15,7 @@ function createBoxes() {
     resultString += `<div style="width: ${widthHeight}px; height: ${widthHeight}px; background-color: ${getRandomHexColor()}"></div>`;
     widthHeight += 10;
   }
-  outputResult.insertAdjacentHTML('beforeend', resultString);
+  outputResult.innerHTML = resultString;
 }
 
 function destroyBoxes() {
